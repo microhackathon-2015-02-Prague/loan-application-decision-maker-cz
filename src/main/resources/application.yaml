@@ -12,6 +12,10 @@ graphite:
 metrics.path:
   country: pl
   app: loan-application-decision-maker-cz
+  
+stubrunner:
+  use-microservice-definitions: true
+  skip-local-repo: true
 
 stubrunner.stubs:
   repository.root: "http://nexus.hackathon.dev.4finance.net/nexus/content/repositories/releases/"
